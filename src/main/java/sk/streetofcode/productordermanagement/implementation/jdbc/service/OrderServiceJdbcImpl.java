@@ -4,7 +4,6 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import sk.streetofcode.productordermanagement.api.OrderService;
 import sk.streetofcode.productordermanagement.api.exception.BadRequestException;
-import sk.streetofcode.productordermanagement.api.request.AddItemRequest;
 import sk.streetofcode.productordermanagement.api.request.EditOrderRequest;
 import sk.streetofcode.productordermanagement.domain.Order;
 import sk.streetofcode.productordermanagement.domain.Product;

@@ -1,5 +1,6 @@
 package sk.streetofcode.productordermanagement.domain;
 
+import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

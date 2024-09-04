@@ -128,9 +128,6 @@ public class IntegrationTests {
                 httpEntity,
                 TestProductResponse.class
         );
-        System.out.println("id: " + product.getId());
-        System.out.println("body: " + responseEntity.getBody().toString());
-        System.out.println("name: " + responseEntity.getBody().getName());
 
         Assertions.assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
       //  Assertions.assertNotNull(responseEntity.getBody());
