@@ -33,5 +33,3 @@ Alternativou je pak spuštění přes terminal pomocí příkazu:
 
 API beží na portu 8080. Bez frontentdu je možné vyzkoušet funkčnost v prohlížeči pomocí Swaggeru UI, který je na adrese:
 http://localhost:8080/swagger-ui/index.html#
-
-
